@@ -1,6 +1,6 @@
 #Chapter1
 #1
-
+'''
 a = input("Enter Your Name: ")
 print("Hello",a)
 
@@ -131,3 +131,30 @@ def hcf(y, z):
 print("The HCF or GCD of your number: ",hcf(y,z))
 
 
+#Chapter 4
+#1
+aa = "aeiou"
+ab = input("Enter your sentence: ")
+ab = ab.casefold()
+ac = {}.fromkeys(aa,0)
+for ad in ab:
+    if ad in ac:
+        ac[ad] += 1
+print(ac)
+#crd google
+
+#2
+
+#3
+str1 = input("Enter a word: ")
+str2 = str1[::-1]
+print(str2)
+
+#4
+'''
+#5
+str3 = input("Enter digits from 0 to 9: ")
+num = list(map(int, str(str3)))
+print("The list of your digits is: ", num)
+num.sort()
+print("Largest number in the list: ",num[-1])
